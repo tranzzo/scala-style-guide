@@ -8,7 +8,8 @@
  </check>
  <check level="warning" class="org.scalastyle.file.HeaderMatchesChecker" enabled="false">
   <parameters>
-   <parameter name="header"></parameters>
+   <parameter name="header"></parameter>
+  </parameters>
  </check>
  <check level="warning" class="org.scalastyle.scalariform.SpacesAfterPlusChecker" enabled="true"/>
  <check level="warning" class="org.scalastyle.file.WhitespaceEndOfLineChecker" enabled="true"/>
