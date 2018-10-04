@@ -65,7 +65,8 @@
  </check>
  <check level="warning" class="org.scalastyle.scalariform.NumberOfTypesChecker" enabled="true">
   <parameters>
-   <parameter name="maxTypes"><![CDATA[5]]></parameter>
+   <!-- Number of types in file (traits, case classes, objects, etc.) -->
+   <parameter name="maxTypes"><![CDATA[15]]></parameter>
   </parameters>
  </check>
  <check level="warning" class="org.scalastyle.scalariform.CyclomaticComplexityChecker" enabled="true">
